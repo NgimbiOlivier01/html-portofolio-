@@ -499,8 +499,50 @@ div .blocs {
    text-align: center;
    row-gap: 21.33px;
    font-family: 'Roboto';
+   margin-top: 100px;
+   margin-right: 70px;
    
-}        
+}   
+
+.contact h4 {
+  font-size: 14px;
+  font-weight: 600;
+  color: #282938;
+  margin: 0 0 16px;
+}
+
+.contact h1 {
+  font-size: 36px;
+  font-weight: 700;
+  color: #282938;
+  margin: 0 0 20px;
+}
+
+.contact p {
+  font-size: 14px;
+  color: #1C1E53;
+  margin: 0;
+}
+
+
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form input[type="tel"] {
+  width: 100%;
+  min-width: 0;
+  height: 38px;
+  box-sizing: border-box;
+}
+
+
+/* .contact-form {
+  width: 100%;
+  max-width: 570px;
+  margin: 0 auto;
+  padding: 20px 0;
+  box-sizing: border-box;
+} */
+
       
 .contact-form {
     row-gap: 32px;
@@ -510,30 +552,46 @@ div .blocs {
     /* justify-content: center; */
 }
 
+
 /* Two-column rows */
-.form-row {
+/* .form-row {
     display: flex;
-    
-    
+} */
+
+
+.form-row {
+  display: flex;
+  gap: 18px;
+  width: 100%;
 }
 
+/* 
 .form-group {
-    flex: 1;
-    min-width: 0;
-    margin-bottom: 25px;
-}
-
-
-/* Individual field container */
-/* .form-group {
     flex: 1;
     min-width: 0;
     margin-bottom: 25px;
 } */
 
+
+.form-group {
+  flex: 1;
+  min-width: 0;
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 8px;
+  font-family: Arial, sans-serif;
+  font-size: 13px;
+  color: #282938;
+}
+
+
+
+
 input[type=text], input[type=email], input[type=tel] {
   min-width: 60%;
-  /* margin-bottom: 10px; */
   border: 1.33px solid #5E3BEE;
   border-radius: 8px;
   padding: 16px;
@@ -541,7 +599,7 @@ input[type=text], input[type=email], input[type=tel] {
 
 #topic {
     display: flex;
-    width: 610px;
+    width: 720px;
     height: 55px;
     border: 1.33px solid #5E3BEE;
     border-radius: 8px;
@@ -550,7 +608,7 @@ input[type=text], input[type=email], input[type=tel] {
 
 #message{
     display: flex;
-    width: 580px;
+    width: 690px;
     height: 150px;
      border: 1.33px solid #5E3BEE;
     border-radius: 8px;
@@ -564,7 +622,7 @@ input[type=submit] {
   background-color: #5E3BEE;
   color: white;
   padding: 14px;
-  margin: 8px 250px;
+  margin: 8px 305px;
   border: none;
   border-radius: 8px;
   justify-content: center;
