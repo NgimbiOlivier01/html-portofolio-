@@ -244,11 +244,32 @@ div .blocs {
             justify-content: space-between;
             align-items: center;
             padding: 20px 85px;
-            gap: 50px
+            margin-bottom: 100px;
+
         }
 
-        .profile .perso p {
-max-width: 600px;
+        .perso p {
+            max-width: 600px;
+            
+        }
+
+        .perso {
+            margin-top: 40px;
+            
+        }
+
+        #about {
+            font-family: 'Roboto';
+            font-size: 34px;
+            color: #282938;
+            margin-top:auto;
+        }
+
+        #sm-about {
+            font-family: 'Roboto';
+            font-size: 15px;
+            color: #282938;
+            
         }
 
 
