@@ -132,15 +132,20 @@
 
 
 
-        div .blocs {
-            display: flex;
-            flex-direction: row;
-            justify-content: space-between;
-            align-items: center;
-            column-gap: 32px;
-            padding: 40px 85px;
+.entire-block{
+    margin-top: 70px;
+    margin-bottom: 85px;
+}
+        
+div .blocs {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: stretch;
+  column-gap: 24px;
+  padding: 20px 34px;
+}
 
-        }
 
         div .bl1 {
             column-gap: 32px;
@@ -151,6 +156,7 @@
             transition: all ease-in-out 0.5s; 
         }
 
+        
         /* :hover {
             color: #ffffff;
             background-color: #5E3BEE;
@@ -185,11 +191,12 @@
             padding: 0 56px;
             height: 130px;
             column-gap: 32px;
+           
         }
 
         .skill h1 {
             font-family: 'Roboto';
-            font-size: 26px;
+            font-size: 34px;
             color: #282938;
         }
 
@@ -204,14 +211,30 @@
             color: #1C1E53;
         }
 
-        .icon {
-            width: 50px;
-            height: 50px;
-            background-color: #FFFFFF;
-            border-radius: 8px;
-            padding: 11px;
-            column-gap: 13px;
-        }
+ 
+.icon {
+  width: 45px;
+  height: 45px;
+  background-color: white;
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 16px;
+  position: relative;
+}
+
+.icon img {
+  width: 28px;
+  height: 28px;
+  max-width: 100%;
+  object-fit: contain;
+  position: static;
+  margin: 0;
+  transform: none;
+  display: block;
+}
+
 
         /*  ABOUT ME PART */
 
@@ -241,6 +264,7 @@ max-width: 600px;
 
         div .img {
             border-radius: 8px;
+            
 
 
         }
