@@ -382,46 +382,94 @@ div .blocs {
 
 
         /* TESTIMONIALS */
-        .all-boite {
+        
+         .container {
+            background-color: #F5FCFF;
+          
+            padding: 85px 0;
+            
+
+        }
+        
+        /* .all-boite {
             display: flex;
             justify-content: space-between;
             align-items: center;
             margin-bottom: 60px;
             column-gap: 42px;
             padding: 0 85px;
-        }
+        } */
 
-        .feedback{
-            padding: 0 85px;
-        }
+        
+.all-boite {
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  gap: 24px;
+  padding: 0 40px;
+  margin-bottom: 0;
+   
+}
 
-        .container {
-            background-color: #F5FCFF;
-            column-gap: 106px;
-            /* padding: 149px 85px; */
+/*  */
+        
+.feedback {
+  padding: 0 40px;
+  margin-bottom: 50px;
+}
 
-        }
 
-        div .boite {
+       
+
+        /* div .boite {
             border: 1.33px solid #006B6A;
             border-radius: 8px;
             column-gap: 42px;
             padding: 42px;
-        }
+        } */
 
-        .customer {
-           display: flex;
-           align-items: center;
-           gap: 15px;
-        }
+        
+.boite {
+  flex: 1;
+  min-width: 0;
+  border: 1.33px solid #006B6A;
+  border-radius: 5px;
+  padding: 24px;
+  min-height: 200px;
 
-        .customer img {
-            width: 55px;
-            height: 55px;
-            border-radius: 50%;
-            object-fit: cover;
-            flex-shrink: 0;
 }
+
+
+.boite .stars {
+  width: 100px;
+  height: auto;
+  display: block;
+  margin: 0 0 20px 0;
+  position: static;
+  transform: none;
+}
+
+        
+.customer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 12px;
+  margin-top: 40px;
+}
+
+.customer img {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  object-fit: cover;
+  flex-shrink: 0;
+  position: static;
+  margin: 0;
+  transform: none;
+}
+
 
         .customer h4 {
             /* color: #282938;
@@ -440,9 +488,9 @@ div .blocs {
         }
 
         #person{
-             display: flex;
-    flex-direction: column;
-    justify-content: center;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
         }
 
         /* FORM */
