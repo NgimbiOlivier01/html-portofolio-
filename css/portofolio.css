@@ -273,7 +273,8 @@ div .blocs {
         }
 
 
-        div .content {
+
+    .content {
             display: flex;
             justify-content: space-between;
             align-items: center;
@@ -281,6 +282,13 @@ div .blocs {
             column-gap: 42px;
             background-color: #FFFFFF;
             padding: 20px;
+        }
+
+        #dribb {
+            font-family: 'Roboto';
+            /* font-size: 18px; */
+            color: #282938;
+            
         }
 
         div .img {
@@ -302,16 +310,75 @@ div .blocs {
             flex-direction: row;
             justify-content: space-between;
             padding: 15px 30px;
+            align-items: center;
          
         }
-        .foliohead a {
+
+        
+.foliohead a.dribbble-btn {
+  display: inline-flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+
+  width: fit-content;
+  height: auto;
+  padding: 12px 16px;
+
+  background-color: #e62875;
+  color: white;
+  border-radius: 6px;
+  text-decoration: none;
+  white-space: nowrap;
+  font-size: 14px;
+}
+
+
+.foliohead .dribbble-btn img {
+  width: 18px;
+  height: 18px;
+  display: block;
+  position: static;
+  margin: 0;
+  padding: 0;
+  transform: none;
+  object-fit: contain;
+  flex-shrink: 0;
+}
+
+
+.items a {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+
+  color: #000000;
+  font-size: 13px;
+  font-weight: bold;
+  text-decoration: none;
+
+  border-bottom: 1px solid #5E3BEE;
+  padding-bottom: 8px;
+  margin-top: 12px;
+}
+
+
+.items .arrow {
+  font-size: 20px;
+  font-weight: normal;
+  line-height: 1;
+}
+
+
+        /* .foliohead a {
             padding: 15px 28px;
             column-gap: 16px;
             border-radius: 6px;
             background-color: #e62875;
             color: white;
             text-decoration: none;
-        }
+        } */
 
 
         /* TESTIMONIALS */
