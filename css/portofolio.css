@@ -291,6 +291,14 @@ div .blocs {
             
         }
 
+        #rpro {
+            font-family: 'Roboto';
+            font-size: 14px;
+            font-style: semi-bold;
+            color: #282938;
+            
+        }
+
         div .img {
             border-radius: 8px;
             
